@@ -32,8 +32,7 @@ at the bottom. Do this separately for each file.
 | Loan payment, assigned | 10000, 12%, 36 | monthly rate = 0.01. Payment is about $332.14, paid back is 332.14 * 36 = about $11957.15, interest is about $1957.15 | Monthly Payment: $332.14, Amount Paid Back: $11957.15, Interest Paid: $1957.15 | Match |
 | Loan payment, changed | 5000, 6%, 24 | monthly rate =   is about 1.12716, so payment = 0.005 * 1.12716 / 0.12716 * 5000 = about $221.60. Paid back is about $5318.47, interest is about $318.47 | Monthly Payment: $221.60, Amount Paid Back: $5318.47, Interest Paid: $318.47 | Match |
 
-Note: the loan program shows the monthly rate as a percent, so the assigned
-test prints 1.00% for a monthly rate of 0.01.
+
 
 Both programs take  input, so there are no values hardcoded in the
 source that I needed to change back. The submitted .cpp files are the same
